@@ -6,8 +6,10 @@ PyQtTOTP is a TOTP QR code generate.
 
 ## Usage
 
-```pip install -r requirements.txt
-python src/pyqttotp.py```
+```
+pip install -r requirements.txt
+python src/pyqttotp.py
+```
 
 
 ## Screenshot
