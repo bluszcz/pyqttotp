@@ -2,7 +2,7 @@
 
 ## Description
 
-PyQtTOTP is a TOTP QR code generate.
+PyQtTOTP is a TOTP QR code generator.
 
 ## Usage
 
