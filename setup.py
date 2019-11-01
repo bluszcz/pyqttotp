@@ -13,7 +13,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='pyqttotp',
-    version='0.9.1',
+    version='0.9.2',
     packages=['pyqttotp'],
     include_package_data=False,
     license='Apache License version 2.0',
