@@ -1,0 +1,4 @@
+build/
+dist/
+pyqttotp.egg-info/
+pyqttotp/__pycache__/

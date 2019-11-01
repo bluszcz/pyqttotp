@@ -1,3 +1,4 @@
+import pyqttotp
 import sys
 from io import BytesIO
 
@@ -63,9 +64,12 @@ class QrCodeForm(QDialog):
         qt_pixmap.loadFromData(buf.getvalue(), "PNG")
         self.label.setPixmap(qt_pixmap)
 
-
-if __name__ == '__main__':
+def main():
     app = QApplication(sys.argv)
     form = QrCodeForm()
     form.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec_())   
+
+if __name__ == '__main__':
+    main()
+
