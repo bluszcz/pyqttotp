@@ -45,7 +45,7 @@ setup(
     },
     install_requires=[
         'PySide2==5.13.1',
-        'Pillow==6.2.1',
+        'Pillow==9.3.0',
         'pyotp==2.3.0',
         'qrcode==6.1'
     ],
